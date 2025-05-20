@@ -44,7 +44,7 @@
   </div>
 </template>
 <script setup>
-import { watch, ref, defineEmits } from "vue";
+import { watch, ref } from "vue";
 const isModalOpen = ref(false);
 const rainWind = ref([]);
 const emit = defineEmits(["closeModal"]);
